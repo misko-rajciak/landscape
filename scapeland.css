@@ -81,8 +81,31 @@ h1{
     height: 30vh;
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .offer{
     font-size: 1.5em;
     text-align: center;
+}
+.box2{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.des2{
+    max-width: 150px;
+    font-size: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 39%);
+}
+.landpic2{
+    height: 150px;
+    width: 150px;
+    border: 3px solid hsl(220, 100%, 60%);
+    border-radius: 10px;
+}
+.landpic2:hover{
+    border: 5px solid hsl(220, 100%, 60%);
+    transition: 0.03s;
 }
