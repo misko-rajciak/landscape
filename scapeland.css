@@ -2,8 +2,9 @@
     font-family: Roboto, Kanit, sans-serif;
 }
 body{
-    max-width: 1000p;
+    max-width: 1000px;
     margin: 0 auto;
+    background-color: rgba(191, 192, 197, 0.169);
 }
 a{
     text-decoration: none;
@@ -185,4 +186,17 @@ h1{
 }
 #p1{
     margin: 0;
+}
+.footer{
+    background-color: hsl(206, 17%, 18%);
+    color: white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+.footcontent{
+    margin: 0 auto;
+}
+#foot{
+    font-size: 10px;
 }
